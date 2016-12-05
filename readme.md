@@ -17,6 +17,10 @@ can also be entire elements. Angular lets you create, say, `<grumble>` and
 
 ##### So what *is* a directive, anyway?
 
+Directives are markers on a DOM element (tags and attributes) that tell AngularJS's HTML compiler to attach a specified behavior to that DOM element.
+
+Directives are Angular's way of letting you add behavior to elements and attributes. DOM elements already have behavior we would want for displaying and linking documents, the original utility of the web. Angular directives add behaviors we would want for building applications.
+
 Basically, a directive is some HTML defined by Angular. A directive can be an
 attribute, an element, a class, or even a comment.
 
