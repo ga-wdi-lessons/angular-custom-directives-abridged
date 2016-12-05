@@ -133,7 +133,7 @@ So far we've seen a bunch of ways of getting things out of the Javascript and in
 We do so using attributes:
 
 ```html
-<spine-case-version name='Nayana'></spine-case-version>
+<spine-case-version name='Jesse'></spine-case-version>
 ```
 
 ```js
