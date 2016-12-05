@@ -128,8 +128,12 @@ Angular actually passes into this link function an argument called scope. This i
 
 ### Get information into the directive
 
+So far we've seen a bunch of ways of getting things out of the Javascript and into the HTML. But how do we get things out of the HTML and into the Javascript?
+
+We do so using attributes:
+
 ```html
-<spine-case-version name='Jesse'></spine-case-version>
+<spine-case-version name='Nayana'></spine-case-version>
 ```
 
 ```js
