@@ -4,8 +4,6 @@
 - Explain the purpose of each of the four directive options, and the four options for the 'restrict' directive, E, A, C, M
 - Use a custom directive to render an array of objects
 - Use link method to set scope
-- Explain the difference between @ and = in scope object
-
 
 ## Custom directives
 
