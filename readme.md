@@ -149,6 +149,8 @@ We do so using attributes:
 })
 ```
 
+The @ in scope is for passing strings. If you want to pass an object, use =.
+
 ## You do: Random Bill Murray Image Directive
 
 https://github.com/ga-wdi-exercises/random-billmurray
