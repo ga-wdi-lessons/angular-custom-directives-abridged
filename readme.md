@@ -66,6 +66,9 @@ They all add HTML to a view.
   }
 })
 ```
+One thing to note is that Angular expects you to write the directive's name as camelCase inside the directive JS, but as spine case inside the HTML. .directive('spineCaseVersion') automatically turns into <spine-case-version>.
+
+
 
 ### Restrict to E,A,C,M
 
@@ -82,6 +85,7 @@ They all add HTML to a view.
   }
 })
 ```
+If you only want your directive to be available as an element, you add restrict: 'E' to your directive. This will make angular use the my-custom-directive element and ignore the my-custom-directive attribute. If I add restrict: 'A', it does the opposite.
 
 ```html
 <spine-case-version></spine-case-version> <!-- element -->
@@ -101,6 +105,10 @@ They all add HTML to a view.
   }
 })
 ```
+
+Directives can be given a parameter called link. It'll automatically be run every time an instance of that directive is created
+
+Angular actually passes into this link function an argument called scope. This is an object that's available both in the directive's JS and the directive's HTML. So anything I add to it in the JS will be available in the HTML, and vice-versa.
 
 ### Add a method
 
